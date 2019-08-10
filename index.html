@@ -3,8 +3,24 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Assignment 1, Novice Option</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Psychic Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
     </head>
+    <body>
+        <header>Guess the letter I'm thinking of!</header>
+        <div class="containerBox">
+            <h1>Wins:</h1>
+            <span id="wins"></span>
+            <h1>Losses:</h1>
+            <span id="losses"></span>
+            <p>Reamaining attempts:
+                <span id="attempts"></span>
+            </p>
+            <p>Guesses so far:</p>
+            <span id="playerGuess"></span>
+        </div>
+        <script src="assets/javascript/game.js"></script>
+    </body>
 
 </html>
